@@ -20,7 +20,7 @@ class HomeScreen extends StatelessWidget {
           children: const [
             Text('isDarkMode'),
             Divider(),
-            Text('Genero'),
+            Text('Gender'),
             Divider(),
             Text('User Name'),
           ],
