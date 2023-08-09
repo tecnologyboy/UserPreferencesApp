@@ -38,8 +38,12 @@ class MyApp extends StatelessWidget {
       initialRoute: HomeScreen.routeName,
       routes: {
         HomeScreen.routeName: (_) => const HomeScreen(),
-        SettingsScreen.routeName: (_) => const SettingsScreen()
+        SettingsScreen.routeName: (_) => const SettingsScreen(),
+        PeopleScreen.routeName: (_) => const PeopleScreen()
       },
+
+      //se aplico el tema desde el provider.
+
       theme: Provider.of<ThemeProvider>(context).currentTheme,
     );
   }
